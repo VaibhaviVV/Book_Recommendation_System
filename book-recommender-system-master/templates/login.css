@@ -1,0 +1,71 @@
+/* Apply Bootstrap styles to the form inputs and button */
+.form-control {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  /* Customize the login form */
+  .card {
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Center the card element */
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Reduce the size of the sign-up link */
+  .card-body a {
+    font-size: 0.8rem;
+  }
+  /* Style for the card */
+  .card-login {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style for the company name */
+  .card-login h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Style for the login form */
+  .card-login form {
+    margin-bottom: 0;
+  }
+ .image {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fthe-50-great-books-on-education-24934&psig=AOvVaw05c4DLlOE4oUalHCmht5Fr&ust=1683103348010000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMD94fSe1v4CFQAAAAAdAAAAABAE');
+    background-size: 100% 100%;
+    background-position: center;
+  }
+ 
+  

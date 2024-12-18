@@ -1,0 +1,43 @@
+/* Apply Bootstrap styles to the form inputs and button */
+.form-control {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  /* Customize the login form */
+  .card {
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Center the card element */
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Reduce the size of the sign-up link */
+  .card-body a {
+    font-size: 0.8rem;
+  }
+  
